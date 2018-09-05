@@ -4,7 +4,7 @@
 
 import socket
 
-UDP_IP= "192.168.0.27"
+UDP_IP= ""
 UDP_PORT= 5006
 
 #Creación del Socket,AF_INET socket de internet(IPv4),SOCK_DGRAM orientado a protocolo UDP

@@ -4,7 +4,7 @@
  
 import socket
  
-TCP_IP= '192.168.0.27'  
+TCP_IP= ''  
 TCP_PORT = 5003             
 BUFFER_SIZE= 4096
 
