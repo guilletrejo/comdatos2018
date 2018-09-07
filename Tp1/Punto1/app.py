@@ -6,7 +6,7 @@ app = Flask(__name__)
 ip = "192.168.0.27"
 puerto = 5001
 
-#Metodo GET simple
+#Metodo GET simple cambio
 
 @app.route("/")
 def index():
