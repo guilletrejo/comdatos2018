@@ -4,7 +4,7 @@ from pyftpdlib.servers import FTPServer
 
 
 authorizer = DummyAuthorizer() # Crea el objeto que sirve para autorizar (dar permisos...)
-#authorizer.add_user("user", "12345", "/home/guilletrejo", perm="elradfmw") # Agrega credenciales de un usuario
+authorizer.add_user("user", "12345", "/home/guilletrejo", perm="elradfmw") # Agrega credenciales de un usuario
 authorizer.add_anonymous("/home/guilletrejo", perm="elradfmw")  # Permite usuarios anonimos
 
 
