@@ -3,7 +3,7 @@ from flask import Flask, request
 
 app = Flask(__name__)
 
-ip = "192.168.0.27"
+ip = "192.168.0.22"
 puerto = 5001
 
 #Metodo GET simple cambio
@@ -21,7 +21,7 @@ def aut():
 
 #Metodo POST
 
-@app.route("/suma",methods=["GET","POST"])
+@app.route("/suma",methods=["POST"])
 def sum():
      num1=request.form.get("num1")
      num2=request.form.get("num2")
