@@ -13,5 +13,5 @@ handler = FTPHandler
 handler.authorizer = authorizer
 
 # Crea el server y lo deja abierto siempre.
-server = FTPServer(("192.168.0.22", 1026), handler)
+server = FTPServer(("10.0.0.2", 1026), handler)
 server.serve_forever()
